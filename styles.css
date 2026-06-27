@@ -1,3 +1,12 @@
+/* Variables */
+:root {
+    --color-main: #1992d4;
+}
+/* Styles */
+html {
+    font-size: 16px;
+    color: #000;
+}
 h1 {
     font-size: 2em;
 }
@@ -9,8 +18,15 @@ h1 {
     min-height: 100vh;
 }
 
-.container > aside {
+aside.sidebar {
     grid-row-end: span 2;
+    color: #fff;
+    background-color: var(--color-main);
+}
+
+aside.sidebar ul {
+    list-style-type: none;
+    margin: 20px;
 }
 
 .container > main {
