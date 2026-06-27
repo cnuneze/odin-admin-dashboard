@@ -1,3 +1,23 @@
 h1 {
     font-size: 2em;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 200px 1fr;
+    min-height: 100vh;
+}
+
+.container > aside {
+    grid-row-end: span 2;
+}
+
+.container > main {
+    min-height: 100%;
+}
+
+.container > * {
+    border: 1px solid red;
+    min-height: 100px;
+}
