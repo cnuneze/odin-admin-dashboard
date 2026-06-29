@@ -1,0 +1,57 @@
+/* Icons */
+.icon {
+    display: inline-block;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+.i-dashboard {
+            mask: url(assets/icons/monitor-dashboard.svg);
+    -webkit-mask: url(assets/icons/monitor-dashboard.svg);
+}
+
+.i-home {
+            mask: url(assets/icons/home.svg);
+    -webkit-mask: url(assets/icons/home.svg);
+}
+
+.i-profile {
+            mask: url(assets/icons/account.svg);
+    -webkit-mask: url(assets/icons/account.svg);
+}
+
+.i-messages {
+            mask: url(assets/icons/chat.svg);
+    -webkit-mask: url(assets/icons/chat.svg);
+}
+
+.i-history {
+            mask: url(assets/icons/history.svg);
+    -webkit-mask: url(assets/icons/history.svg);
+}
+
+.i-tasks {
+            mask: url(assets/icons/list-status.svg);
+    -webkit-mask: url(assets/icons/list-status.svg);
+}
+
+.i-communities {
+            mask: url(assets/icons/account-group.svg);
+    -webkit-mask: url(assets/icons/account-group.svg);
+}
+
+.i-settings {
+            mask: url(assets/icons/wrench.svg);
+    -webkit-mask: url(assets/icons/wrench.svg);
+}
+
+.i-support {
+            mask: url(assets/icons/help-box.svg);
+    -webkit-mask: url(assets/icons/help-box.svg);
+}
+
+.i-privacy {
+            mask: url(assets/icons/security.svg);
+    -webkit-mask: url(assets/icons/security.svg);
+}
