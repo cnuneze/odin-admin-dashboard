@@ -7,6 +7,8 @@
     font-style: normal;
 }
 
+
+
 /* Variables */
 :root {
     --color-main: #1992d4;
@@ -30,14 +32,48 @@ h1 {
 }
 
 aside.sidebar {
+    display: grid;
+    grid-template-rows: 100px;
     grid-row-end: span 2;
     color: #fff;
     background-color: var(--color-main);
 }
 
-aside.sidebar ul {
+.sidebar-title {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.sidebar-title .icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+
+.sidebar ul .icon {
+    width: 26px;
+    height: 26px;
+}
+
+aside.sidebar h1 {
+    display: inline-block;
+}
+
+aside.sidebar ul li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
     list-style-type: none;
-    margin: 20px;
+}
+
+aside.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 32px;
 }
 
 .container > main {
@@ -48,3 +84,5 @@ aside.sidebar ul {
     border: 1px solid red;
     min-height: 100px;
 }
+
+
