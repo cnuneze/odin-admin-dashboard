@@ -80,9 +80,10 @@ aside.sidebar ul li a {
 
 /* Header */
 
-header .search-header {
+header {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 72px 100px;
 }
 
 header .search-box {
@@ -90,7 +91,7 @@ header .search-box {
     grid-template-columns: auto 1fr;
     justify-items: center;
     align-items: center;
-    padding: 16px 36px;
+    padding: 12px 36px;
 }
 
 .search-box .icon {
@@ -111,7 +112,7 @@ header .profile-box {
     grid-template-columns: auto auto 1fr;
     justify-items: center;
     align-items: center;
-    padding: 16px 32px;
+    padding: 12px 32px;
 }
 
 .profile-box > img {
@@ -121,7 +122,13 @@ header .profile-box {
     margin: 0px 24px;
 }
 
-header .search-header > div {
+header .nav-header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: start;
+}
+
+header .nav-header > * {
     border: 1px solid blue;
 }
 
