@@ -122,13 +122,25 @@ header .profile-box {
     margin: 0px 24px;
 }
 
-header .nav-header {
+header .user-box {
     display: grid;
     grid-template-columns: auto 1fr;
+    align-items: center;
     justify-items: start;
+    padding-left: 36px;
 }
 
-header .nav-header > * {
+.user-box > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-box .user-text {
+    margin-left: 12px
+}
+
+header nav > * {
     border: 1px solid blue;
 }
 
