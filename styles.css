@@ -25,9 +25,9 @@ h1 {
 
 .container {
     display: grid;
-    /* TODO: ajustar columna con autofix(220 px) */
+    /* TODO: ajustar columna con autofit(220 px) */
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: auto 1fr;
     min-height: 100vh;
 }
 
@@ -82,7 +82,7 @@ aside.sidebar ul li a {
 
 header {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 5fr 3fr;
     grid-template-rows: 72px 100px;
 }
 
@@ -138,6 +138,23 @@ header .user-box {
 
 .user-box .user-text {
     margin-left: 12px
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-right: 48px;
+}
+
+nav .btn {
+    min-width: 90px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: var(--color-main);
+    color: #fff;
+    border: none;
 }
 
 header nav > * {
