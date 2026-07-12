@@ -31,6 +31,8 @@ h1 {
     min-height: 100vh;
 }
 
+/* Side Bar */
+
 aside.sidebar {
     display: grid;
     grid-template-rows: 100px;
@@ -75,6 +77,49 @@ aside.sidebar ul li a {
     font-size: 24px;
     margin-left: 32px;
 }
+
+/* Header */
+
+header .search-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+header .search-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 16px 36px;
+}
+
+.search-box .icon {
+    margin-right: 12px;
+}
+
+.search-box > input.input-search {
+    height: 28px;
+    width: 100%;
+    border: none; 
+    border-radius: 14px;
+    padding-left: 12px;
+    background-color: #E2E8F0;
+}
+
+header .profile-box {
+    display: grid;
+    grid-template-columns: 40px 1fr 1fr;
+}
+
+header .search-header > div {
+    border: 1px solid blue;
+}
+
+header .icon {
+    color: #000;
+}
+
+/* Others */
 
 .container > main {
     min-height: 100%;
