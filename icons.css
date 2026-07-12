@@ -1,7 +1,8 @@
 /* Icons */
 .icon {
     display: inline-block;
-    background-color: #fff;
+    color: #fff;
+    background-color: currentColor;
     width: 24px;
     height: 24px;
 }
