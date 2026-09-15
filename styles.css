@@ -165,6 +165,22 @@ header .icon {
     color: #000;
 }
 
+/* Body */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr, 1fr;
+}
+
+main > .projects {
+    grid-row-end: span 2;
+}
+
+main > section {
+    border: blue 1px solid;
+}
+
 /* Others */
 
 .container > main {
