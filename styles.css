@@ -177,6 +177,11 @@ main > .projects {
     grid-row-end: span 2;
 }
 
+main > section > h2 {
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
 main > section {
     border: blue 1px solid;
 }
