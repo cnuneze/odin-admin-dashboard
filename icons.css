@@ -66,3 +66,18 @@
             mask: url(assets/icons/bell-ring-outline.svg);
     -webkit-mask: url(assets/icons/bell-ring-outline.svg);
 }
+
+.i-star {
+            mask: url(assets/icons/star.svg);
+    -webkit-mask: url(assets/icons/star.svg);
+}
+
+.i-eye {
+            mask: url(assets/icons/eye.svg);
+    -webkit-mask: url(assets/icons/eye.svg);
+}
+
+.i-fork {
+            mask: url(assets/icons/fork.svg);
+    -webkit-mask: url(assets/icons/fork.svg);
+}
