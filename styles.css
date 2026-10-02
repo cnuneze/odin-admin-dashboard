@@ -232,6 +232,41 @@ main > .projects {
   border: purple 1px solid;
 }
 
+/* Announcements */
+
+main .announcements-box {
+  background-color: #fff;
+  margin-top: 24px;
+  margin-right: 24px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.announcements-box .announcement-card {
+  border-bottom: #aaa solid 1px;
+  padding: 18px 12px;
+}
+
+.announcements-box .announcement-card:first-child {
+  padding-top: 0px;
+}
+
+.announcements-box .announcement-card:last-child {
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+
+.announcements-box h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.announcements-box p {
+  font-size: 14px;
+  line-height: 1;
+  color: #555;
+}
+
 main .icon {
   color: #000;
 }
