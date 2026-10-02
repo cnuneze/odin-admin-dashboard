@@ -170,7 +170,6 @@ main {
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 main > section {
@@ -179,6 +178,8 @@ main > section {
 
   border: blue 1px solid;
 }
+
+/* Proyects */
 
 main > .projects {
   grid-row-end: span 2;
@@ -265,6 +266,49 @@ main .announcements-box {
   font-size: 14px;
   line-height: 1;
   color: #555;
+}
+
+/* Trending */
+
+main .trending-box {
+  background-color: #fff;
+  margin-top: 24px;
+  margin-right: 24px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.trending-box .trending-card {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  padding: 12px 0px;
+}
+
+.trending-box .trending-card:first-child {
+  padding-top: 0px;
+}
+
+.trending-box .trending-card:last-child {
+  padding-bottom: 0px;
+}
+
+.trending-box h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.trending-box p {
+  font-size: 14px;
+  line-height: 1;
+  color: #555;
+}
+
+.trending-card .trending-profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  grid-row-end: span 2;
+  margin-right: 12px;
 }
 
 main .icon {
