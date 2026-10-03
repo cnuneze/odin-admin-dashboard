@@ -156,10 +156,6 @@ nav .btn {
   border: none;
 }
 
-header nav > * {
-  border: 1px solid blue;
-}
-
 header .icon {
   color: #000;
 }
@@ -175,8 +171,6 @@ main {
 main > section {
   padding-top: 12px;
   padding-left: 24px;
-
-  border: blue 1px solid;
 }
 
 /* Proyects */
@@ -204,8 +198,6 @@ main > .projects {
   border-radius: 12px;
   padding-top: 30px;
   padding-left: 18px;
-
-  border: green 1px solid;
   border-left: #f0b429 solid 12px;
 }
 
@@ -227,10 +219,6 @@ main > .projects {
   grid-auto-flow: column;
   grid-auto-columns: max-content;
   gap: 15px;
-}
-
-.actions span {
-  border: purple 1px solid;
 }
 
 /* Announcements */
@@ -319,9 +307,4 @@ main .icon {
 
 .container > main {
   min-height: 100%;
-}
-
-.container > * {
-  border: 1px solid red;
-  min-height: 100px;
 }
